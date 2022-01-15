@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "insatiable:strange_meat_pie"
+    },
+    "title": "Ms. Lovette",
+    "description": "Bake your meat pie... with an little secret ingredient.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "insatiable:strange_meat_pie"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
