@@ -1,4 +1,4 @@
-package com.plummetstudios.insatiable.item;
+package com.plummetstudios.insatiable.common.item;
 
 import com.plummetstudios.insatiable.Insatiable;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -43,7 +43,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> BUG_STEW = ITEMS.register("bug_stew",
             () -> new BowlFoodItem(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(1)
-                    .food(new FoodProperties.Builder().nutrition(8).saturationMod(1F).effect(new MobEffectInstance(MobEffects.WEAKNESS, 300, 2), 0.2F).effect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 300, 2), 0.15F).effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 300, 2), 0.15F).build())));
+                    .food(new FoodProperties.Builder().nutrition(9).saturationMod(1F).effect(new MobEffectInstance(MobEffects.WEAKNESS, 3000, 0), 0.2F).effect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 3000, 0), 0.15F).effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 3000, 0), 0.15F).build())));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register((eventBus));

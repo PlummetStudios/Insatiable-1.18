@@ -19,6 +19,8 @@
 
   "item.insatiable.spider_cookie": "Spider Cookie",
 
-  "item.insatiable.bug_stew": "Bug Stew"
+  "item.insatiable.bug_stew": "Bug Stew",
+
+  "tooltip.insatiable.spider_cookie.tooltip": "Terrible food source in the day but is better than steak when eaten at night."
 
 }

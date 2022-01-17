@@ -5,7 +5,13 @@
       "item": "insatiable:cooked_game_meat"
     },
     {
-      "item": "minecraft:carrot"
+      "item": "forge/vegetables"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
     },
     {
       "item": "minecraft:wheat"

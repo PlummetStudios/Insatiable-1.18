@@ -19,7 +19,7 @@ modId="insatiable" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="1.17.1-2.0" #mandatory
+version="1.18.1-2.0" #mandatory
  # A display name for the mod
 displayName="Insatiable" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
@@ -29,12 +29,12 @@ displayName="Insatiable" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png" #optional
 # A text field displayed in the mod UI
-credits="A super big thank you to Coda for the meat texture!" #optional
+credits="A super big thank you to Coda for the game meat texture, Sire for the light meat texture, and Crydigo for everything else!" #optional
 # A text field displayed in the mod UI
-authors="Plummet Studios" #optional
+authors="Plummet Studios, Crydigo, Coda, and Sire Monozari" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Insatiable is a mod that focuses to improve the general Minecraft survival experience by allowing the player to hunt any species for a general less satuating type of meat
+Insatiable is a mod that focuses to improve the general Minecraft survival experience by allowing the player to hunt any species for a general less saturating type of meat
 
 This mod is designed to follow vanilla's principles by giving a non-exclusive item for most animals to drop that still allows farm animals to reign supreme in the food production department.
 This mod is designed with mod packs in mind and comes packaged with built-in integration and allows for a more realistic approach to replacing the naturally generating farm animals without starving the player.

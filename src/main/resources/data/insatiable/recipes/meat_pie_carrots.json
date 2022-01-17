@@ -2,17 +2,23 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "insatiable:cooked_strange_meat"
+      "item": "insatiable:cooked_game_meat"
     },
     {
       "item": "minecraft:carrot"
     },
     {
       "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
     }
   ],
   "result": {
-    "item": "insatiable:strange_meat_pie",
+    "item": "insatiable:meat_pie",
     "count": 1
   }
 }

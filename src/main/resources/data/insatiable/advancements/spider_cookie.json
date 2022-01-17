@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "insatiable:strange_meat_pie"
+      "item": "insatiable:spider_cookie"
     },
-    "title": "Ms. Lovette",
-    "description": "Bake your meat pie... with an little secret ingredient.",
+    "title": "Late Night Snackin'",
+    "description": "Obtain a spider cookie, a delicious snack best served while its nighttime.",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -17,7 +17,7 @@
         "items": [
           {
             "items": [
-              "insatiable:strange_meat_pie"
+              "insatiable:spider_cookie"
             ]
           }
         ]
