@@ -30,7 +30,7 @@ public class SpiderCookie extends Item {
                 playerIn.addEffect(new MobEffectInstance(MobEffects.SATURATION, 1, 9));
             }
 
-        else if(worldIn.isThundering() == true)
+        else if(worldIn.isThundering())
         {
             playerIn.addEffect(new MobEffectInstance(MobEffects.SATURATION, 1, 9));
         }
